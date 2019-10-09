@@ -26,7 +26,9 @@ class App extends Component {
             selected={this.state.selected}
             handleClick={this.handleClick}
           />
-          <Circles />
+          <Circles
+            selected={this.state.selected}
+          />
         </main>
       </div>
     );
